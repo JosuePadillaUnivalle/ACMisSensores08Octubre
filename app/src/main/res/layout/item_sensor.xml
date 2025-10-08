@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="12dp"
+        android:minHeight="120dp">
 
         <!-- Elemento 1: Nombre del sensor -->
         <TextView
@@ -20,9 +21,11 @@
             android:layout_height="wrap_content"
             android:text="Nombre del Sensor"
             android:textColor="@android:color/black"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="bold"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="6dp"
+            android:maxLines="2"
+            android:ellipsize="end" />
 
         <!-- Elemento 2: Tipo del sensor -->
         <TextView
@@ -31,8 +34,8 @@
             android:layout_height="wrap_content"
             android:text="Tipo: Acelerómetro"
             android:textColor="@android:color/darker_gray"
-            android:textSize="14sp"
-            android:layout_marginBottom="4dp" />
+            android:textSize="12sp"
+            android:layout_marginBottom="3dp" />
 
         <!-- Elemento 3: Fabricante -->
         <TextView
@@ -41,8 +44,8 @@
             android:layout_height="wrap_content"
             android:text="Fabricante: Google"
             android:textColor="@android:color/darker_gray"
-            android:textSize="12sp"
-            android:layout_marginBottom="4dp" />
+            android:textSize="11sp"
+            android:layout_marginBottom="3dp" />
 
         <!-- Elemento 4: Versión -->
         <TextView
@@ -51,7 +54,7 @@
             android:layout_height="wrap_content"
             android:text="Versión: v1.0"
             android:textColor="@android:color/darker_gray"
-            android:textSize="12sp"
+            android:textSize="11sp"
             android:layout_marginTop="2dp" />
 
     </LinearLayout>
