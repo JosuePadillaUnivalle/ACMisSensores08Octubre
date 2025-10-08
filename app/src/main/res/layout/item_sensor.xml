@@ -51,7 +51,8 @@
             android:layout_height="wrap_content"
             android:text="Versión: v1.0"
             android:textColor="@android:color/darker_gray"
-            android:textSize="12sp" />
+            android:textSize="12sp"
+            android:layout_marginTop="2dp" />
 
     </LinearLayout>
 
